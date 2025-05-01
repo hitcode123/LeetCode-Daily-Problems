@@ -3,7 +3,7 @@ package leetCodeToughQuestions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class findSuperSequenceFromString {
+ class findSuperSequenceFromString {
    static List<List<String>> mpString;
     public static String   findDistanceString(String s1,String s2,int n1,int n2,List<List<String>> mpString){
 
