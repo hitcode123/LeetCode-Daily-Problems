@@ -1,3 +1,4 @@
+package leetcodeQuestions;
 
 class SolutionForDivideAndConquer {
 

@@ -1,5 +1,4 @@
-
-
+package leetcodeQuestions;
 
 
 public class SpecialSubStringK {

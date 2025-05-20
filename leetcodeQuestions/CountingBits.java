@@ -1,3 +1,5 @@
+package leetcodeQuestions;
+
 class CountingBitsSolution {
     public int[] countBits(int n) {
         int dp[]= new int[n+1];

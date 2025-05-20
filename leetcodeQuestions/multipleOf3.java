@@ -1,4 +1,4 @@
-
+package leetcodeQuestions;
 
 class SolutionmultipleOf3 {
     public boolean checkPowersOfThree(int n) {

@@ -1,4 +1,6 @@
-  class SolutionRobber2 {
+package leetcodeQuestions;
+
+class SolutionRobber2 {
       int[] dp;
       int getMaxValueFromRob(int index,int [] vis,int [] nums,int sum,int[] dp,int end){
           if(index>=end||(vis[(index+1)%nums.length])!=-1){
