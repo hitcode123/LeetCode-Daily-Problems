@@ -37,6 +37,16 @@ public class MaximizeSumBetweenEdges {
         return result;
     }
 
+    static long mod=(long)1e9+7;
+    long pow(long num){
+        long ans=2;
+        while(num>0){
+
+            num=num/2;
+        }
+        return ans;
+    }
+
     public int assignEdgeWeights(int[][] edges) {
         int n=edges.length+1;
         List<List<Integer>> lst=new ArrayList<>();
@@ -68,8 +78,8 @@ public class MaximizeSumBetweenEdges {
                }
            }
         }
-
-        return findMaxNumberOfCount(count);
+        return (int) pow(4);
+//        return findMaxNumberOfCount(count);
     }
 
     public static void main(String[] args){
