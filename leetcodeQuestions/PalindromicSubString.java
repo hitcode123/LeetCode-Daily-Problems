@@ -31,7 +31,7 @@ public class PalindromicSubString {
                 if(checkPalindrome(tempS)){
                     temp.add(tempS);
                     formListString(s,st+i,e,temp);
-                    temp.removeLast();
+//                    temp.removeAll();
                 }
             }
         }
