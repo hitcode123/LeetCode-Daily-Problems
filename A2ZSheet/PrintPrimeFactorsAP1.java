@@ -12,7 +12,7 @@ public class PrintPrimeFactorsAP1 {
             tempList.add(2);
         }
 
-        for(int i=3;i<n;i+=2){
+        for(int i=3;i*i<n;i+=2){
             while(n%i==0){
                 n/=i;
                 tempList.add(i);
@@ -26,7 +26,7 @@ public class PrintPrimeFactorsAP1 {
     }
     public static void main(String[] args){
         PrintPrimeFactorsAP1 obj=new PrintPrimeFactorsAP1();
-        obj.countPrimeFactors(63);
+        obj.countPrimeFactors(4650);
         for(Integer i: tempList){
             System.out.println(i+ " ");
         }
