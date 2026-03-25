@@ -1,4 +1,4 @@
-package A2ZSheet;
+package A2ZSheet.StackCoversions;
 
 import java.util.Stack;
 
@@ -33,7 +33,7 @@ public class InfixToPostFix {
             }else if(present=='('){
                 st.add('(');
             }else{
-                while(!st.isEmpty()&&precedence(present)<precedence(st.peek())){
+                while(!st.isEmpty()&&precedence(present)<=precedence(st.peek())){
                     ansBuilder.append(st.peek());
                     st.pop();
                 }
